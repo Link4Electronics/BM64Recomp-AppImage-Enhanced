@@ -8,7 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	libdecor  	   \
-	sdl2	 	       \
+	sdl2	 	   \
 	vulkan-headers
 
 echo "Installing debloated packages..."
